@@ -4,6 +4,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+.banner {
+     background-color:pink;
+     background: url(../img/beautiful-stacked-dried-fruit-nuts.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     height: 500px;
+}
+
 
 .banner_main::before {
      content: "";
@@ -57,4 +66,9 @@
 
 .banner_img figure {
      margin: 0;
+}
+
+#points .heading {
+     margin-bottom : 0px;
+     /* margin: 40px; */
 }
